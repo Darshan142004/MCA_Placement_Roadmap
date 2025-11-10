@@ -25,10 +25,5 @@ for i in arr1:
 
 arr3=(3,5,2,4,6,235,4);
 summ=0;
-for i in arr3:
-    summ=summ+i;
-    avgg=summ/(len(arr3));
-print("sum is=",summ," AVG=",avgg);
-print(max(arr3));
-print(min(arr3));
+
 
