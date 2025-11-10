@@ -1,0 +1,15 @@
+arr1=["darsh",2004,"Bhagwat"]
+for i in arr1:
+    print(i);
+print(len(arr1));
+print(arr1[2])
+arr1[1]=14;
+print(arr1[1]);
+s=input("Enter 4th arr1ay element");
+arr1.append(s);
+print(arr1[3]);
+arr2=arr1; # copy
+for i in arr2:
+    print(i);
+
+
