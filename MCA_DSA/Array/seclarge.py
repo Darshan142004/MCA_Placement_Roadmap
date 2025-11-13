@@ -5,7 +5,7 @@ if arr[0]>arr[1]:
 else:
     first,sec=arr[1],arr[0];
 
-for i in range(len(arr)):
+for i in range(2,len(arr)):
     if arr[i]>first:
         sec=first;
         first=arr[i];
