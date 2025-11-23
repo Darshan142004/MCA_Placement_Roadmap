@@ -12,5 +12,4 @@ for ch in s + " ":      # add space to process last word
             max_len = len(current)
             longest = current
         current = ""
-
 print("Longest word:", longest)
