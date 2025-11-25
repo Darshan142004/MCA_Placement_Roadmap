@@ -3,7 +3,6 @@ n = len(arr)
 
 stack = []
 result = [-1] * n
-
 for i in range(n):
     while stack and arr[i] > arr[stack[-1]]:
         idx = stack.pop()
