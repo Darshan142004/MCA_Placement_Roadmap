@@ -6,4 +6,5 @@ for i in range(n-1):         # Total passes
         if arr[j] > arr[j+1]:
             arr[j], arr[j+1] = arr[j+1], arr[j]  # Swap
 
+
 print("Bubble Sorted:", arr)
