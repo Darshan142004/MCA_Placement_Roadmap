@@ -7,6 +7,7 @@ for n in arr:
         candidate = n
     count += (1 if n == candidate else -1)
 
+
 # verify candidate
 if arr.count(candidate) > len(arr)//2:
     print("Majority:", candidate)
