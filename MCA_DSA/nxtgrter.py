@@ -9,4 +9,5 @@ for i in range(n):
         result[idx] = arr[i]
     stack.append(i)
 
+
 print(result)
