@@ -20,4 +20,5 @@ if __name__ == '__main__':
             # New second largest found (and not the same as the top max)
             max2 = num
             
+            
     print(max2)
