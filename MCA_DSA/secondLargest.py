@@ -9,6 +9,7 @@ if __name__ == '__main__':
     else:
         max1 = my_list[1]
         max2 = my_list[0]
+        
     # --- Iteration Step (Loop through the rest of the list) ---
     # Start iterating from the 3rd element (index 2)
     for num in my_list[2:]:
