@@ -1,9 +1,8 @@
 s = "I am learning data structures in python"
-
 max_len = 0
 current = ""
 longest = ""
-for ch in s + " ":      # add space to process last word
+for ch in s + " ":     
     if ch != " ":
         current += ch
     else:
