@@ -1,4 +1,3 @@
-
 arr = [10, 20, 5, 8, 40, 3]
 
 largest = smallest = arr[0]
