@@ -10,4 +10,5 @@ for ch in s + " ":
             max_len = len(current)
             longest = current
         current = ""
+        
 print("Longest word:", longest)
