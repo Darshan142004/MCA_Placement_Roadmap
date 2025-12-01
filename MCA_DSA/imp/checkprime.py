@@ -8,5 +8,4 @@ else:
         if n % i == 0:
             is_prime = False
             break
-        
 print("Prime" if is_prime else "Not Prime")
