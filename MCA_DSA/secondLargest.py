@@ -19,7 +19,6 @@ if __name__ == '__main__':
             max1 = num
         elif num > max2 and num != max1:
             # New second largest found (and not the same as the top max)
-            max2 = num
-            
+            max2 = num    
             
     print(max2)
