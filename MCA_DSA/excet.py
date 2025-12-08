@@ -16,5 +16,4 @@ for i in range(n-2, -1, -1):
 # multiply them
 for i in range(n):
     result[i] = prefix[i] * suffix[i]
-
 print(result)
