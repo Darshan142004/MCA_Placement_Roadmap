@@ -12,6 +12,7 @@ right[n-1] = arr[n-1]
 for i in range(n-2, -1, -1):
     right[i] = max(right[i+1], arr[i])
 
+
 water = 0
 for i in range(n):
     water += min(left[i], right[i]) - arr[i]
