@@ -1,6 +1,7 @@
 arr = [1, 2, 3, 4]
 n = len(arr)
 
+
 prefix = [1] * n
 suffix = [1] * n
 result = [1] * n
