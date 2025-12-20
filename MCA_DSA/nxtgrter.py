@@ -1,6 +1,7 @@
 arr = [4, 5, 2, 25]
 n = len(arr)
 
+
 stack = []
 result = [-1] * n
 for i in range(n):
