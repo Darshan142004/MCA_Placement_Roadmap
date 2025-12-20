@@ -2,6 +2,7 @@ if __name__ == '__main__':
     n = 6
     arr = (5,8,2,4,61,4);
     my_list = list(arr);
+  
     
     if my_list[0] > my_list[1]:
         max1 = my_list[0]
