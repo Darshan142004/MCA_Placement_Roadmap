@@ -1,6 +1,5 @@
 n = 29
 is_prime = True
-
 if n < 2:
     is_prime = False
 else:
