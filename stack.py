@@ -1,22 +1,32 @@
-# Initialize an empty list to serve as the stack
 stack = []
 
-# 1. PUSH: Adding elements to the stack
-stack.append("A")
-stack.append("B")
-stack.append("C")
-print(f"Stack after pushes: {stack}")
+while True:
+    print("\n--- STACK OPERATIONS ---")
+    print("1. Push (Add)")
+    print("2. Pop (Remove)")
+    print("3. Display Stack")
+    print("4. Exit")
+    
+    choice = input("Enter your choice (1-4): ")
 
-# 2. PEEK: Looking at the top element without removing it
-if stack:
-    top_element = stack[-1]
-    print(f"Top element (Peek): {top_element}")
+    if choice == '1':
+        item = input("Enter the value to push: ")
+        stack.append(item)
+        print(f"{item} added to stack.")
 
-# 3. POP: Removing the top element
-removed_item = stack.pop()
-print(f"Popped element: {removed_item}")
-print(f"Stack after pop: {stack}")
+    elif choice == '2':
+        if len(stack) == 0:
+            print("Stack is empty! Nothing to pop.")
+        else:
+            removed = stack.pop()
+            print(f"Popped element: {removed}")
 
-# 4. IS EMPTY: Checking if stack is empty
-is_empty = len(stack) == 0
-print(f"Is stack empty? {is_empty}")
+    elif choice == '3':
+        print(f"Current Stack: {stack}")
+
+    elif choice == '4':
+        print("Exiting program.")
+        break
+
+    else:
+        print("Invalid choice, please try again.")
