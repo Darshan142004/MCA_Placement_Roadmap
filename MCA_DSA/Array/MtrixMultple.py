@@ -9,8 +9,8 @@
 # print("matrix=",matrix);
 
 import numpy as np
+
 A = [[1, 2], [3, 4]]
 B = [[5, 6], [7, 8]]
-
 result = np.array(A) @ np.array(B)
 print(result)
