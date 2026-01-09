@@ -9,5 +9,6 @@ for ch in s + " ":
         if len(current) > max_len:
             max_len = len(current)
             longest = current
-        current = ""       
+        current = ""   
+            
 print("Longest word:", longest)
