@@ -5,5 +5,6 @@ for x in arr:
         largest = x
     if x < smallest:
         smallest = x
+        
 print("Largest:", largest)
 print("Smallest:", smallest)
