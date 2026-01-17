@@ -5,5 +5,6 @@ for i in range(n): #i=1 ,n=5
            print(" ",end=" ")
         else:
            print("#",end=" ")
+           
     print("")
    
