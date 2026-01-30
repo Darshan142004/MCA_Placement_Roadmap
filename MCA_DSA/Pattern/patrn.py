@@ -1,5 +1,4 @@
 n=5
-
 for i in range(n):
     print("")  
     for n in range(i+1):
