@@ -14,6 +14,7 @@ while True:
         stack.append(item)
         print(f"{item} added to stack.")
 
+
     elif choice == '2':
         if len(stack) == 0:
             print("Stack is empty! Nothing to pop.")
