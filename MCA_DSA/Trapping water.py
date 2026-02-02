@@ -1,7 +1,5 @@
 arr = [3, 0, 2, 0, 4]
 n = len(arr)
-
-
 left = [0] * n
 right = [0] * n
 
