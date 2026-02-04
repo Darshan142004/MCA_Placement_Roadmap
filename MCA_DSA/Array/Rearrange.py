@@ -1,7 +1,6 @@
 arr = [1, -2, 3, -4, 5, -6]
 pos = []
 neg = []
-
 for n in arr:
     if n >= 0:
         pos.append(n)
