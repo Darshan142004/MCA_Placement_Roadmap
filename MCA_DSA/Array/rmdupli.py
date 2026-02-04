@@ -3,4 +3,5 @@ lis=[];
 for i in arr:
     if i not in lis:
         lis.append(i);
+
 print(lis);
