@@ -7,5 +7,6 @@ for i in arr:
     else:
         arrO.append(i)
 print(arrE)
+
 print(arrO)
     
