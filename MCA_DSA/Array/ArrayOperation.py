@@ -12,7 +12,6 @@ arr2=arr1; # copy
 for i in arr2:
     print(i);
 
-
 #reverse
 start=0;
 end=len(arr1)-1;
