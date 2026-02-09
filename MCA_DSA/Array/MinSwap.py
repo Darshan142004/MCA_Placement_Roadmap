@@ -7,6 +7,7 @@ arr_pos.sort()
 visited = [False] * n
 swaps = 0
 
+
 for i in range(n):
     if visited[i] or arr_pos[i][1] == i:
         continue
