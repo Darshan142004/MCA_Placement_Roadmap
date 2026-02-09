@@ -6,7 +6,6 @@ for n in arr:
         pos.append(n)
     else:
         neg.append(n)
-
 result = []
 i = j = 0
 
