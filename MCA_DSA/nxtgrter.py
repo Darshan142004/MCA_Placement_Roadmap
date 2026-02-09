@@ -8,5 +8,4 @@ for i in range(n):
         idx = stack.pop()
         result[idx] = arr[i]
     stack.append(i)
-
 print(result)
