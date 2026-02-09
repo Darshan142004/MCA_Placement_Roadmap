@@ -1,6 +1,5 @@
 arr = [5, 2, 9, 1, 7]
 n = len(arr)
-
 for i in range(1, n):
     key = arr[i]
     j = i - 1
