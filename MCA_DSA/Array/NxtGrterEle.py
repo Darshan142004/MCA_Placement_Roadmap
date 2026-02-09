@@ -7,5 +7,4 @@ for i in range(len(arr)):
         index = stack.pop()
         result[index] = arr[i]
     stack.append(i)
-
 print(result)
