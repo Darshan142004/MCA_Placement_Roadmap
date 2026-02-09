@@ -3,7 +3,6 @@ n = len(arr)
 prefix = [1] * n
 suffix = [1] * n
 result = [1] * n
-
 # Build prefix
 for i in range(1, n):
     prefix[i] = prefix[i-1] + arr[i-1]
