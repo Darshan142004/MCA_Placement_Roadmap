@@ -8,5 +8,7 @@ for i in arr:
         arrO.append(i)
 print(arrE)
 
+
+
 print(arrO)
     
