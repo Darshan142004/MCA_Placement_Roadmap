@@ -4,7 +4,6 @@ for x in arr:
     if x > largest:
         largest = x
     if x < smallest:
-        smallest = x     
-        
+        smallest = x          
 print("Largest:", largest)
 print("Smallest:", smallest)
