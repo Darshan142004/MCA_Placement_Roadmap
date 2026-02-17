@@ -3,8 +3,6 @@ li=input().split()
 
 for i in range(n):
     li[i]=int(li[i])
-
-
 maxC=0
 maxE=li[0]
 
