@@ -22,7 +22,6 @@ while(start<end):
     
 for i in arr1:
     print(i);
-
 arr3=(3,5,2,4,6,235,4);
 summ=0;
 for i in arr3:
