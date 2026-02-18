@@ -1,5 +1,6 @@
 arr = [2, 2, 1, 1, 2]
 candidate = count = 0
+
 for n in arr:
     if count == 0:
         candidate = n
