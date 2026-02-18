@@ -3,6 +3,7 @@ x=90;
 low=0;
 high=len(arr)-1;
 found=False;
+
 while(low<=high):
     mid=(low+high)//2;
     if arr[mid]==x:
